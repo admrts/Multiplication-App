@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiplication App</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="rules">
+        <div class="correctLabel">
+          <label id="correctLabel"> Correct Answer = +1</label>
+        </div>
+        <div class="wrongLabel">
+          <label id="wrongLabel"> Wrong Answer = -1</label>
+        </div>
+        <div>
+          <label id="score">Score: 0</label>
+        </div>
+      </div>
+      <div class="form">
+        <div class="question">
+          <label id="question">What is 1 multiply by 1 ?</label>
+        </div>
+        <div class="answer">
+          <input
+            id="answer"
+            type="text"
+            placeholder="Enter your answer"
+            autocomplete="off"
+          />
+        </div>
+        <form class="submit" id="submit">
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
